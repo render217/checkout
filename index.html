@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="./assets/images/devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css">
+
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1 main-title">Checkout</h1>
+      <div class="flex-wrapper">
+        <div class="cart">
+          <ul class="card-list">
+            <li class="card-item">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/images/photo1.png" alt="">
+                    </div>
+                    <div class="card-content">
+                          <h5 class=" card-title">Vintage Backbag</h5>
+                          <div class="card-meta">
+                              <span class="new-price">$54.99</span>
+                              <span class="old-price">$94.99</span>
+                          </div>
+                          <div class="card-pill">
+                              <div class="count">1</div>
+                          </div>
+                    </div>
+                </div>
+            </li>
+            <li class="card-item">
+              <div class="card">
+                  <div class="card-img">
+                      <img src="./assets/images/photo2.png" alt="">
+                  </div>
+                  <div class="card-content">
+                        <h5 class=" card-title">Levi Shoes</h5>
+                        <div class="card-meta">
+                            <span class="new-price">$74.99</span>
+                            <span class="old-price">$124.99</span>
+                        </div>
+                        <div class="card-pill">
+                            <div class="count">1</div>
+                        </div>
+                  </div>
+              </div>
+            </li>
+          </ul>
+          <div class="summary">
+              <div class="summary-item">
+                  <span class="text">Shipping</span>
+                  <span class='data'>$19</span>
+              </div>
+              <div class="summary-item">
+                <span class="text">Total</span>
+                <span class="data">$148.98</span>
+            </div>
+          </div>
+        </div>
+        <form class="form" data-form-submit>
+          <h2 class="h2">Contact Information</h2>
+
+          <div class="input-group">
+            <label for="email" class="label">Email</label>
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" name="email" placeholder="Your Email" />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="phone" class="label">Phone</label>
+            <div class="input-field">
+              <i class="fa-solid fa-phone"></i>
+              <input type="number" name="phone" placeholder="Your Phone" />
+            </div>
+          </div>
+
+          <h2 class="h2">Shipping address</h2>
+
+          <div class="input-group">
+            <label for="fullname" class="label">Full name</label>
+            <div class="input-field">
+              <i class="fa-solid fa-circle-user"></i>
+              <input type="text" name="fullname" placeholder="Your Full Name" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="address" class="label">Address</label>
+            <div class="input-field">
+              <i class="fa-solid fa-house"></i>
+              <input type="text" name="address" placeholder="Your Address" />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="city" class="label">City</label>
+            <div class="input-field">
+              <i class="fa-solid fa-city"></i>
+              <input type="text" name="city" placeholder="Your City" />
+            </div>
+          </div>
+          <div class="grid-list">
+            <div class="input-group">
+              <label for="country" class="label">Country</label>
+              <div class="input-field">
+                <i class="fa-solid fa-earth-americas"></i>
+                <select name="country" id="">
+                    <option value="ethiopia">Ethiopia</option>
+                    <option value="canada">Canada</option>
+                    <option value="german">Germany</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="postal-code" class="label">Postal Code</label>
+              <div class="input-field">
+                <i class="fa-solid fa-flag"></i>
+                <input type="number" name="postal-code"/>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="">
+            <span>Save this information for next time</span>
+          </div>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>created by <b>Beamlak</b>- devChallenges.io</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>
+

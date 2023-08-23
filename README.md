@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}" target="_blank">
+    <a href="https://render217.github.io/checkout/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}" target="_blank">
+    <a href="https://devchallenges.io/solutions/EIXRdzaaID2LdUQ0j3XD" target="_blank">
       Solution
     </a>
     <span> | </span>
@@ -45,7 +45,7 @@
 
 - Html
 - Css
-
+- Js
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
